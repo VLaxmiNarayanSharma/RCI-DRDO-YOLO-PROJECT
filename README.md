@@ -44,6 +44,7 @@ cd RCI-DRDO-YOLO-PROJECT
 
 
 mkdir yolov12_env
+
 tar -xzf yolov12_model_env.tar -C yolov12_env
 
 
