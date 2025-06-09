@@ -35,21 +35,21 @@ This project uses a **pre-packed Conda environment** for reproducibility.
 
 ### Step 1: Clone the repository
 
-bash
+
 git clone https://github.com/<your-username>/RCI-DRDO-YOLO-PROJECT.git
 cd RCI-DRDO-YOLO-PROJECT
 
 
 ### Step 2: Unpack the Conda environment
 
-bash
+
 mkdir yolov12_env
 tar -xzf yolov12_model_env.tar -C yolov12_env
 
 
 Step 3: Activate the environment (Linux/macOS)
 
-bash
+
 source yolov12_env/bin/activate
 
 
