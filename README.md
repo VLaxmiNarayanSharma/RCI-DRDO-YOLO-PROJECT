@@ -33,14 +33,16 @@ This project uses a **pre-packed Conda environment** for reproducibility.
 
 ## 🔧 1. Extract & Setup the Conda Environment
 
-### Step 1: Clone the repository
+✅ Step 1: Clone the Repository
+
+Open **VS Code Terminal** or **Command Prompt** and run:
+
+git clone https://github.com/VLaxmiNarayanSharma/YOLOv11_12-PROJECT.git
+
+cd YOLOv11_12-PROJECT
 
 
-git clone https://github.com/<your-username>/RCI-DRDO-YOLO-PROJECT.git
-cd RCI-DRDO-YOLO-PROJECT
-
-
-### Step 2: Unpack the Conda environment
+Step 2: Unpack the Conda environment
 
 
 mkdir yolov12_env
@@ -50,14 +52,17 @@ tar -xzf yolov12_model_env.tar -C yolov12_env
 
 Step 3: Activate the environment (Linux/macOS)
 
+🔹 For Linux / macOS:
 
 source yolov12_env/bin/activate
 
+🔹 For Windows CMD:
 
-> 🔁 For Windows CMD (if unpacked with 7-Zip or manually):
-
-cmd
 yolov12_env\Scripts\activate.bat
+
+🔹 For VS Code Terminal (Windows PowerShell):
+
+& .\yolov12_env\Scripts\Activate.ps1
 
 2. Run Inference or Training
 
