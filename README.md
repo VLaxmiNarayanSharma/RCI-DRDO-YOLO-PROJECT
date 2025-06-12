@@ -109,5 +109,16 @@ tar -xzf yolov12_env.tar.gz -C yolov12-env
 source yolov12-env/bin/activate
 Now the environment is live. Run:
 
-
 python inference.py
+
+https://github.com/VLaxmiNarayanSharma/YOLOv11_12-PROJECT/releases/download/v1/yolo_env_pcb.tar.gz
+
+Respected mam
+Please use the above github link to extract and download the yolo_env_pcb.tar.gz file 
+and please keep file in an empty folder and use the below code in the folder terminal
+
+tar -xvzf yolo_env_pcb.tar.gz
+
+This command will extract the project folder with .pt files, .ipynb and .py files (for training and testing models), along with inference.py file, .yaml file and training and testing data.
+
+Than we can use change directory using command cd YOLOv11_v12_PROJECT and run inference.py file using ( python inference.py ) command 
