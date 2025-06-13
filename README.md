@@ -121,4 +121,5 @@ tar -xvzf yolo_env_pcb.tar.gz
 
 This command will extract the project folder with .pt files, .ipynb and .py files (for training and testing models), along with inference.py file, .yaml file and training and testing data.
 
-Than we can use change directory using command cd YOLOv11_v12_PROJECT and run inference.py file using ( python inference.py ) command 
+Than we can use change directory using command cd YOLOv11_v12_PROJECT and run inference.py file using ( python inference.py ) command .
+https://drive.google.com/file/d/13HZabUJg8mQw3Zm2nYI7E2eq_muA3oLA/view?usp=sharing
